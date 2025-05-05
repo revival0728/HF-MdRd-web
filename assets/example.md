@@ -18,14 +18,14 @@ npm install hf-mdrd
 ```
 
 2. Import the module
-```js
+```javascript
 import { md_to_html } from "hf-mdrd";
 
 const html = md_to_html(markdown_content);
 ```
 
 3. Add CSS to the frontend
-```js
+```javascript
 import "hf-mdrd/css/hf-mdrd.css";
 ```
 
@@ -152,6 +152,6 @@ Spoiler
 | body   | row |
 
 ## API
-```ts
+```typescript
 function md_to_html(markdown_content: string): string
 ```
